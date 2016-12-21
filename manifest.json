@@ -1,0 +1,16 @@
+{
+  "name": "WEG",
+  "description": "WEG Extension Chrome.",
+  "short_name": "WEG",
+  "version": "1",
+  "incognito": "split",
+  "offline_enabled": true,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+  "manifest_version": 2
+}
